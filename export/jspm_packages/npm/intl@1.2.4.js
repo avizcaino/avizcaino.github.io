@@ -1,0 +1,1 @@
+module.exports = require("npm:intl@1.2.4/index.js");
