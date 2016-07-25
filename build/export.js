@@ -12,6 +12,7 @@ module.exports = {
     'images/**/*',
     'jspm_packages/npm/bluebird@3.4.1/js/browser/bluebird.min.js',
     'jspm_packages/npm/intl@1.2.4.js',
+    'jspm_packages/npm/intl@1.2.4/index.js',
     'jspm_packages/system.js',
     'jspm_packages/system-polyfills.js',
     'jspm_packages/system-csp-production.js',
