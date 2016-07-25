@@ -1,0 +1,15 @@
+{
+  "heading-section--welcome": "Welcome",
+  "heading-section--last-posts": "Latest Posts",
+  "heading-section--about": "About",
+  "heading-section--blog": "Blog",
+  "heading-section--admin": "Administration",
+
+  "username": "Username",
+  "password": "Password",
+  "button-access": "Access",
+
+  "message--login-error": "Invalid credentials. Try again.",
+
+  "copyright": "© 2016 Alex Vizcaino. All rights reserved."
+}
