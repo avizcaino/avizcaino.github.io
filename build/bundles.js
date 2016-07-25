@@ -1,6 +1,6 @@
 module.exports = {
   "bundles": {
-    "dist/app-build": {
+    "dist/app-bundle": {
       "includes": [
         "[**/*.js]",
         "**/*.html!text",
@@ -13,7 +13,7 @@ module.exports = {
         "rev": false
       }
     },
-    "dist/aurelia": {
+    "dist/aurelia-bundle": {
       "includes": [
         "aurelia-framework",
         "aurelia-bootstrapper",
@@ -35,6 +35,7 @@ module.exports = {
         "font-awesome/css/font-awesome.min.css!text",
         "i18next-xhr-backend",
         "i18next",
+        "intl",
         "moment",
         "jquery"
       ],

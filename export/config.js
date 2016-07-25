@@ -380,7 +380,7 @@ System.config({
     ]
   },
   bundles: {
-    "app-build.js": [
+    "app-bundle.js": [
       "app.html!github:systemjs/plugin-text@0.0.8.js",
       "app.js",
       "blur-image.js",
@@ -422,7 +422,7 @@ System.config({
       "users.html!github:systemjs/plugin-text@0.0.8.js",
       "users.js"
     ],
-    "aurelia.js": [
+    "aurelia-bundle.js": [
       "github:github/fetch@1.0.0.js",
       "github:github/fetch@1.0.0/fetch.js",
       "github:jspm/nodelibs-process@0.1.2.js",
@@ -547,6 +547,9 @@ System.config({
       "npm:i18next@3.3.1/dist/commonjs/postProcessor.js",
       "npm:i18next@3.3.1/dist/commonjs/utils.js",
       "npm:i18next@3.3.1/index.js",
+      "npm:intl@1.2.4.js",
+      "npm:intl@1.2.4/index.js",
+      "npm:intl@1.2.4/lib/core.js",
       "npm:jquery@2.2.4.js",
       "npm:jquery@2.2.4/dist/jquery.js",
       "npm:moment@2.14.1.js",
