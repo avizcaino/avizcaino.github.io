@@ -8,3 +8,4 @@ coverage
 test/e2e/dist
 /typings
 /dist
+!export/jspm_packages
