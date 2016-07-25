@@ -14,6 +14,7 @@ module.exports = {
     'jspm_packages/system.js',
     'jspm_packages/system-polyfills.js',
     'jspm_packages/system-csp-production.js',
+    'locales/**/*',
     'styles/styles.css',
     'styles/roboto.min.css',
     'styles/fonts/**/*'
