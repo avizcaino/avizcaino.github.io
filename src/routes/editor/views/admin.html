@@ -1,5 +1,14 @@
 <template>
   <section>
-    <h1 class="heading">Admin</h1>
+    <h1 class="heading">${'heading-section--admin' | t}</h1>
+    <div class="row">
+      <div class="col-lg-2 col-md-2 col-sm-2">
+        <h6>${'admin-section--new-post' | t}</h6>
+        <h6>${'admin-section--posts' | t}</h6>
+      </div>
+      <div class="col-lg-10 col-md-10 col-sm-10">
+        <post-editor></post-editor>
+      </div>
+    </div>
   </section>
 </template>

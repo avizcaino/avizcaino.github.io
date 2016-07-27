@@ -1,0 +1,17 @@
+<template>
+  <form role="form">
+    <div class="form-group">
+      <label for="postTitle">${'post-edit-title' | t}</label>
+      <input type="text" value.bind="postTitle" class="form-control" id="postTitle" placeholder="${'post-edit-title' | t}">
+    </div>
+    <div class="form-group">
+      <label for="postImage">${'post-edit-image' | t}</label>
+      <input type="file" value.bind="postImage" class="form-control" id="postImage" placeholder="${'post-edit-image' | t}">
+    </div>
+    <div class="form-group">
+      <label for="postContent">${'post-edit-content' | t}</label>
+      <textarea value.bind="postContent" class="form-control" id="postContent" placeholder="${'post-edit-content' | t}"></textarea>
+    </div>
+    <button class="btn btn-default">${'post-edit-save' | t}</button>
+  </form>
+</template>

@@ -5,6 +5,9 @@
   "heading-section--blog": "Blog",
   "heading-section--admin": "Administration",
 
+  "admin-section--new-post": "New Post",
+  "admin-section--posts": "Posts",
+
   "username": "Username",
   "password": "Password",
   "button-access": "Access",
