@@ -3,11 +3,11 @@
     <h1 class="heading">${'heading-section--admin' | t}</h1>
     <div class="row">
       <div class="col-lg-2 col-md-2 col-sm-2">
-        <h6>${'admin-section--new-post' | t}</h6>
-        <h6>${'admin-section--posts' | t}</h6>
+        <h6 click.delegate="navigateTo('new-post')">${'admin-section--new-post' | t}</h6>
+        <h6 click.delegate="navigateTo('posts')">${'admin-section--posts' | t}</h6>
       </div>
       <div class="col-lg-10 col-md-10 col-sm-10">
-        <post-editor></post-editor>
+        <router-view></router-view>
       </div>
     </div>
   </section>

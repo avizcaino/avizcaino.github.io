@@ -28,7 +28,7 @@ export class Login{
   access(){
     this._loginService.validateCredentials({username: this.username, password: this.password}).then(validLogin => {
       if(validLogin)
-        this._router.navigate('admin');
+        this._router.navigate('editor/admin');
       else
         this.loginError = 'message--login-error';
     })
